@@ -1,0 +1,9 @@
+spring:
+  application:
+    name: dashboard
+zuul:
+  routes:
+    running-location-service:
+      path: /running-location-service/**
+      serviceId: running-location-service
+
